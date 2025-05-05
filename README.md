@@ -22,15 +22,24 @@ Este projeto tem como objetivo servir como material de apoio e referência prát
 Clone este repositório e abra os arquivos `.html` em seu navegador preferido. Não é necessário nenhum servidor ou dependência externa.
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Sara-source01/Css3-Files-Practices.git
+cd Css3-Files-Practices
 
 📚 Ideal para  
 - Estudantes de front-end  
 - Quem está começando com CSS  
-- Revisão rápida de conceitos importantes  
+- Revisão rápida de conceitos importantes
 
-💡 Sinta-se à vontade para explorar, modificar e melhorar os exemplos!
+💡 Contribuições
+Sinta-se à vontade para explorar, modificar e melhorar os exemplos!
+
+🧑‍💻 Autor
+Desenvolvido por Sara George
+📫 Contato: [coloque seu email aqui]
+🌐 Portfólio: [coloque seu site aqui]
+
+
+
 
 
 
