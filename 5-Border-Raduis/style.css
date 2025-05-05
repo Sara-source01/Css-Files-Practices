@@ -1,0 +1,140 @@
+ol li.raduis {
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis1 {
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    border-radius: 7px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis2 {
+    width: 300px;
+    height: 300px;
+    background-color: tan;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis3 {
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+    border-radius: 20px 25px 40px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis4 {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    border-top-left-radius: 20px 40px;
+    border-top-right-radius: 25px 30px;
+    border-bottom-right-radius: 40px 50px;
+    border-bottom-left-radius: 30px 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis5 {
+    width: 300px;
+    height: 300px;
+    background-color: teal;
+    border-radius: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis6 {
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis7 {
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    border-top-left-radius: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis8 {
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    border-top-left-radius: 30px 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis9 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-top-right-radius: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis10 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-top-right-radius: 50px 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis11 {
+    width: 300px;
+    height: 300px;
+    background-color: firebrick;
+    border-bottom-right-radius: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis12 {
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    border-bottom-right-radius: 40px 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis13 {
+    width: 300px;
+    height: 300px;
+    background-color: forestgreen;
+    border-bottom-left-radius: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ol>li.raduis14 {
+    width: 300px;
+    height: 300px;
+    background-color: fuchsia;
+    border-bottom-left-radius: 70px 120px;
+    text-align: center;
+    margin-bottom: 40px;
+}

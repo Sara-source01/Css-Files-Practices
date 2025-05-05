@@ -1,0 +1,34 @@
+.nota {
+    background-color: lawngreen;
+}
+
+section {
+    margin-top: 40px;
+}
+
+/* elementos blocos levam 100% de largura
+de seu pai (body=navegador= a largura de navegador) */
+h2,
+ol,
+.bloco,
+ul,
+div {
+    background-color: deeppink;
+}
+
+/* Elementos emlinha leva a largura que precisa de
+medição de seu conteúdo */
+span,
+strong,
+i,
+b,
+em,
+mark,
+sub,
+small,
+u,
+del,
+sup,
+a {
+    background-color: tomato;
+}

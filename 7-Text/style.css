@@ -1,0 +1,47 @@
+#listagem {
+    color: deeppink;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: tomato;
+}
+
+/* text-align */
+.center {
+    text-align: center;
+    color: crimson;
+}
+
+.left {
+    text-align: left;
+    color: turquoise;
+}
+
+.right {
+    text-align: right;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+div {
+    text-align: center;
+    width: 600px;
+    border: solid 2px fuchsia;
+    padding: 10px;
+    color: firebrick;
+    margin-bottom: 25px;
+}
+
+ul li span {
+    display: block;
+    text-align: center;
+    background-color: coral;
+}
+
+.direction {
+    direction: rtl;
+    font-size: larger;
+    color: brown;
+}

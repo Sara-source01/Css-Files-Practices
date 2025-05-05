@@ -1,0 +1,29 @@
+/* chamar todos os elementos */
+* {
+    color: red;
+}
+
+/* chamar um elemento especifico */
+h1 {
+    background-color: yellow
+}
+
+/* chamar um elemento com class */
+.test {
+    text-transform: capitalize;
+}
+
+/* chamar um elemento com id */
+#test1 {
+    background-color: palegreen;
+}
+
+/* chamar todos os p com class texto */
+p.texto {
+    color: navy;
+}
+
+/* chamar todos os p com id testo */
+p#testo {
+    color: turquoise;
+}

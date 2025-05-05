@@ -1,0 +1,109 @@
+/* exemplo1 */
+
+
+.parent{background-color: gold;
+padding: 10px;
+display: inline-flexbox;
+margin-bottom: 50px;
+/* valor padrão: seus ellementos vai ir dependendo de direção 
+da sua página(linguagem) */
+flex-direction: row;
+
+}
+.parent div{padding: 10px;
+margin: 10px;}
+.item1{background-color: aquamarine;}
+
+
+.item2{background-color: palegreen;}
+
+.item3{background-color: pink;}
+.item4{background-color: red;}
+
+/* exemplo2 */
+.parent1{background-color: gold;
+    padding: 10px;
+    margin-bottom: 50px;
+    /* cor gold é só ao longo de conteúdo */
+    display: inline-flex;
+    flex-direction: row-reverse;
+    
+    }
+    .parent1 div{padding: 10px;
+    margin: 10px;}
+    .item01{background-color: aquamarine;}
+    
+    
+    .item02{background-color: palegreen;}
+    
+    .item03{background-color: pink;}
+    .item04{background-color: red;}
+
+
+
+
+    /* example3 */
+
+
+    .parent2{background-color: gold;
+        padding: 10px;
+        margin-bottom: 50px;
+         
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .parent2 div{padding: 10px;
+        margin: 10px;}
+        .item011{background-color: aquamarine;}
+        
+        
+        .item021{background-color: palegreen;}
+        
+        .item031{background-color: pink;}
+        .item041{background-color: red;}
+
+        
+    /* example 4*/
+
+
+    .parent3{background-color: gold;
+        padding: 10px;
+        margin-bottom: 50px;
+         
+        display: inline-flex;
+        flex-direction: column;
+        
+        }
+        .parent3 div{padding: 10px;
+        margin: 10px;}
+        .item012{background-color: aquamarine;}
+        
+        
+        .item022{background-color: palegreen;}
+        
+        .item032{background-color: pink;}
+        .item042{background-color: red;}
+
+
+        
+    /* example 5*/
+
+
+    .parent4{background-color: gold;
+        padding: 10px;
+        margin-bottom: 50px;
+         
+        display: flex;
+        flex-direction: column-reverse;
+        
+        }
+        .parent4 div{padding: 10px;
+        margin: 10px;}
+        .item013{background-color: aquamarine;}
+        
+        
+        .item023{background-color: palegreen;}
+        
+        .item033{background-color: pink;}
+        .item043{background-color: red;}

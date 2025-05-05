@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>4-percentagem</title>
+</head>
+
+<body>
+    <header>
+        <h1>4-percentagem, Width, Height</h1>
+        <hr>
+        <br>
+        <span id="listagem">Listagem rápida:</span>
+        <ul id="cor">
+            <li><a href="#width">Width (largura)</a></li>
+            <li><a href="#altura">Height (altura)</a></li>
+            <li><a href="#max">Max-Min</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2 id="width">1- Width (largura):</h2>
+            <ul>
+                <li>O valor padrão é um valor de elemento, não obstante se coloca esse valor ou não.</li>
+                <li>O valor padrão de largura é a mesma largura do pai dele como body (navegador).</li>
+                <li>A largura de body quando não contém conteúdo é "1264", poderia conferir de clicar no navegador com
+                    clica direita e escolher "inspecionar".</li>
+                <li>Tem elementos não levam a largura de pai dele como "span" (emlinha)</li>
+            </ul>
+            <br>
+            <span class="emlinha">"Span": é um elemento emlinha naõ leva a largura de pai dele. </span>
+            <br>
+            <div>
+                <h3>Testing: h3 leva 50%=500px de largura de pai dele (div).</h3>
+            </div>
+            <br><br>
+            <h2 id="altura">2- Height (altura):</h2>
+            <ul>
+                <li>O valor padrão de altura é a altura de conteúdo.</li>
+                <li>Se não tem um conteúdo, a altua vai ser "zero" e não mostrará nada no navegador.</li>
+                <li> A altura de body quando não contém conteúdo é "zero"</li>
+            </ul>
+            <div class="height">O elemento leva a altura dependendo de altura de seu conteúdo.</div>
+            <br>
+            <div class="height1">
+                <p>P vai levar a altura de pai dele (div=200px)</p>
+                <p class="test">P vai levar 50% de altura de pai dele (div=200px).</p>
+            </div>
+            <br>
+            <!-- não mostra nada no navegador por caso
+      "p" sem conteúdo e o pai dele também   -->
+            <div class="height2">
+                <p class="test2"></p>
+                <p class="test3">Se escrevemos alguma coisa nele
+                    ele vai ter altura dependendo de
+                    altura de seu conteúdo.</p>
+                <p class="test4">Ou colocamos por exemplo height:50 px; ao invés de 100%;.</p>
+
+            </div>
+
+            <h2 id="max">3- Max-Min</h2>
+            <ul>
+                <li>Width: a largura fixa de qualquer elemento, não é efetado de nenhuma alteração seja abriu sua página
+                    de tela de notebook tanto tela de celular.</li>
+                <li>Max-width: o máximo largura é possível vai ter, e vai efetar de diminuir de tela ao visualizar, não
+                    com o conteúdo.</li>
+                <li>Min-width: o mínimo largura é possível vai ter, e vai efetar de diminuir de tela ao visualizar, não
+                    com o conteúdo.</li>
+            </ul>
+
+            <div class="exemplo1"><strong>(Width: 300px)......</strong> Lorem ipsum dolor sit amet consectetur
+                adipisicing
+                elit. Ad tenetur aliquid dolores,
+                reiciendis fuga fugit itaque, cupiditate corporis quaerat sequi porro aliquam? Doloremque minus alias
+                quis esse ratione cupiditate fuga. A necessitatibus facilis excepturi veniam ullam inventore enim? Sint
+                quas cum nobis est, voluptate natus consequuntur error mollitia deserunt numquam in, ducimus laboriosam,
+                accusamus dolorum velit sapiente quisquam quasi! Nisi aperiam voluptatibus non quibusdam fugit nihil
+                explicabo deleniti iusto voluptates. Eveniet in, ad consequatur quae consequuntur voluptates quisquam
+                laboriosam? Ab ipsum doloribus nam, error distinctio architecto deserunt corporis. Totam voluptatibus
+                sunt doloribus, laborum nam deserunt voluptatem blanditiis. Maxime, dignissimos dolor.</div>
+            <br><br>
+            <div class="exemplo2"><strong>(Max-width: DE 0px a sem 300px).....</strong> Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Placeat maxime recusandae
+                expedita deleniti possimus dolores temporibus ipsum voluptas, esse ex officia voluptates fugit alias
+                molestias perferendis officiis, consectetur iure. Sit quisquam tempora quibusdam odio enim cumque
+                distinctio repellat aliquid, facere doloremque expedita eum sequi soluta iste possimus dolores quasi!
+                Iusto laudantium dicta aliquid nostrum doloremque quos enim consequatur praesentium, odio eos omnis
+                sint, beatae eius ipsa accusamus. Velit ab minima voluptatem repellat culpa corrupti perspiciatis quod,
+                provident id earum amet?</div>
+
+            <br><br>
+            <div class="exemplo3"><strong>(Min-width: DE 300px a sem fin)......</strong> Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Placeat
+                maxime recusandae expedita deleniti possimus dolores temporibus ipsum voluptas, esse ex officia
+                voluptates fugit alias molestias perferendis officiis, consectetur iure. Sit quisquam tempora quibusdam
+                odio enim cumque distinctio repellat aliquid, facere doloremque expedita eum sequi soluta iste possimus
+                dolores quasi! Iusto laudantium dicta aliquid nostrum doloremque quos enim consequatur praesentium, odio
+                eos omnis sint, beatae eius ipsa accusamus. Velit ab minima voluptatem repellat culpa corrupti
+                perspiciatis quod, provident id earum amet?</div>
+            <br>
+            <ul>
+                <li>Height: é um valor fixo de qualquer elemento.</li>
+                <li>Max-height: o máximo altura reage ao longo de conteúdo, não com aumentar ou diminuir a tela de
+                    navegador ao visualizar.</li>
+
+            </ul>
+
+            <br>
+            <!-- sem conteúdo -->
+            <div class="sem"></div>
+            <br>
+            <div class="lor"><strong>"height" que nós colocamos (100px)
+                    não cabe de longo de conteúdo (texto)......</strong> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Minus reprehenderit nulla hic
+                blanditiis quam repellat enim expedita beatae, fuga itaque tempore odit tempora porro voluptates facilis
+                sapiente sunt quod ex in praesentium maiores rerum rem. Eveniet natus maiores error enim vitae, maxime
+                cum ratione! Dolores vel, voluptas unde nemo sint, saepe accusamus quos facilis magnam iure voluptatibus
+                nihil ut beatae.</div>
+
+            <br>
+            <!--  sem usar height, a altura
+               vai ter a altura de conteúdo. -->
+            <div class="normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, ut reiciendis ad
+                accusantium consequatur, ratione, praesentium iusto iste dolores aperiam porro cupiditate et. Magnam
+                dolorum consequatur libero itaque repellat repudiandae reiciendis, odio ducimus a hic repellendus
+                suscipit culpa, assumenda, nisi iure sit. Quaerat adipisci nulla maiores, quos quidem similique pariatur
+                quas doloremque magnam, nisi voluptate voluptatum dolorum, numquam cum earum.</div>
+
+            <div class="maxh"><strong>Max-height reage ao longo de conteúdo(por só 100px no exemplo).....</strong> Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit.
+                Natus ratione fuga enim voluptatum ea quae? Facere aliquam, ut quis vel itaque nulla perspiciatis sit
+                quia, ab expedita at iure rem vero quisquam. Rem nisi assumenda dignissimos dolores fugiat recusandae
+                eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique numquam repudiandae minus
+                qui dolorum commodi neque corrupti beatae optio eius!</div>
+
+        </section>
+    </main>
+
+
+
+
+</body>
+
+</html>

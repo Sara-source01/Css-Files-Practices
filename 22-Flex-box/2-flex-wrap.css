@@ -1,0 +1,47 @@
+/* exemplo1 */
+
+
+.parent{background-color: gold;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    /* valor padrão: seus ellementos vai ir dependendo de direção 
+    da sua página(linguagem) */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    }
+    .parent div{padding: 10px;
+    margin: 10px;}
+    .item1{background-color: aquamarine;}
+    
+    
+    .item2{background-color: palegreen;}
+    
+    .item3{background-color: pink;}
+    .item4{background-color: red;}
+   
+   
+   
+    /* exemplo2 */
+
+
+.parent1{background-color: gold;
+    padding: 10px;
+    display: inline-flex;
+    margin-bottom: 50px;
+    /* valor padrão: seus elementos vai ir dependendo de direção 
+    da sua página(linguagem) */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    }
+    .parent1 div{padding: 10px;
+    margin: 10px;}
+    .item11{background-color: aquamarine;}
+    
+    
+    .item21{background-color: palegreen;}
+    
+    .item31{background-color: pink;}
+    .item41{background-color: red;}

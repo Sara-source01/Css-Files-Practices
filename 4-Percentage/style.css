@@ -1,0 +1,148 @@
+/* body é navegador */
+body {
+    background-color: teal;
+    width: 1000px;
+}
+
+h1 {
+    background: pink;
+    /* h1 leva a largura 100%=1000px 
+    de pai dele (body), sem considerar
+    se coloca 100% ou não*/
+    width: 100%;
+    height: 100%;
+}
+
+#listagem {
+    color: palegreen;
+    font-size: larger;
+}
+
+#cor {
+    background-color: antiquewhite;
+}
+
+/* 50%=500px */
+h2 {
+    color: palevioletred;
+    background-color: navajowhite;
+    width: 50%;
+}
+
+/* 50%=500px */
+ul {
+    width: 50%;
+    background-color: navajowhite;
+}
+
+.emlinha {
+    background: yellowgreen;
+}
+
+/* se não usamos width=400px, div teria 
+ter a largura do pai dele (body=1000px) */
+div {
+    width: 400px;
+    background-color: aquamarine;
+}
+
+h3 {
+    width: 50%;
+    background-color: tomato;
+}
+
+/* height */
+/* O elemento leva a altura dependendo de altura de seu conteúdo. */
+.height {
+    background-color: ghostwhite;
+}
+
+#height1 {
+    background-color: ghostwhite;
+    width: 300px;
+    height: 200px;
+}
+
+p {
+    background-color: fuchsia;
+    width: 100%;
+    height: 100%;
+}
+
+div>.test {
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+}
+
+/* a altura de div=0 (sem conteúdo
+    e não colocamos height para ele) */
+.height2 {
+    width: 300px;
+    background-color: brown;
+}
+
+/* não mostra nada no navegador
+ por caso "p" sem conteúdo e o pai dele
+  também */
+/* mas se escrevemos alguma coisa nele
+  ele vai ter altura dependendo de
+  altura de seu conteúdo
+  ou colocamos por exemplo height:50 px; ao invés de 100%; */
+.height2>.test2 {
+    background-color: gold;
+    width: 100%;
+    height: 80%;
+}
+
+.height2>.test4 {
+    background-color: orange;
+    height: 50px;
+}
+
+/* Max-Min */
+/* width */
+.exemplo1 {
+    background-color: greenyellow;
+    width: 300px;
+}
+
+.exemplo2 {
+    background-color: pink;
+    max-width: 300px;
+}
+
+.exemplo3 {
+    background-color: gold;
+    min-width: 300px;
+}
+
+/* height */
+/* sem conteúdo + sem height
+ não vai mostrar nada*/
+.sem {
+    background-color: magenta;
+    height: 100px;
+}
+
+/* height que nós colocamos(100px) 
+não cabe de longo de texto */
+.lor {
+    background-color: mediumspringgreen;
+    height: 100px;
+}
+
+/* sem usar height, a altura
+     vai ter a altura de conteúdo. */
+.normal {
+    background-color: chocolate;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+/* Max-height */
+.maxh {
+    background-color: crimson;
+    max-height: 100px;
+    margin-bottom: 110px;
+}

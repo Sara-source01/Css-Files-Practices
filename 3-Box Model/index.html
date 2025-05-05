@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Model</title>
+</head>
+
+<body>
+    <header>
+        <h1>3-Box Model</h1>
+        <hr>
+        <ol>
+            <li>A caixa de conteúdo.</li>
+            <li>Espaço interior (padding): que separar o conteúdo das bordas.</li>
+            <li>A caixa das bordas.</li>
+            <li>Espaço externo (margin): que separar qualquer elemento do outro e das bordas.</li>
+        </ol>
+        <div>Nota: poderia contorlar e ajustar de "Box Model".</div>
+        <br><br>
+        <span>Listagem rápida:</span>
+        <ul>
+            <li><a href="#border">Border</a></li>
+            <li><a href="#padding">Padding</a></li>
+            <li><a href="#margin">Margin</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2 id="border">Border{border-style: solid; border-color: red; border-width: 1px}</h2>
+            <!-- não importa ordem (solid 1px red;) -->
+            <ul>
+                <li class="bor">Bordas de todas as direções.</li>
+                <br>
+                <li class="top">Borda de direção top.</li>
+                <br>
+                <li class="left">Borda de direção left.</li>
+                <br>
+                <li class="bottom">Borda de direção bottom.</li>
+                <br>
+                <li class="right">Borda de direção right.</li>
+                <br>
+                <li class="todo">Borda com medição específica de toda direção.</li>
+                <br>
+            </ul>
+            <h2>Tipos de border:(solid, dotted, dashed, doubled,...etc)</h2>
+            <ul>
+                <li class="tipo1">solid</li>
+                <br>
+                <li class="tipo2">dotted</li>
+                <br>
+                <li class="tipo3">dashed</li>
+                <br>
+                <li class="tipo4">double</li>
+            </ul>
+            <br>
+            <h2>Como contorlar de largura e altura de caixa?</h2>
+            <p class="controle">O elemento leva um valor padrão de largura de navegador e altura de conteúdo. pois pode
+                usar "width" para controlar a largura de caixa e "height" para controlar a altura de caixa.</p>
+        </section>
+        <section>
+            <h2 id="padding">Padding</h2>
+            <!-- padding de todas as direções  -->
+            <ul>
+                <li class="direction">padding de todas as direções.</li>
+                <br>
+                <div class="lista">
+                    <li class="ptop">padding-top</li>
+                    <br><br>
+                    <li class="pbottom">padding-bottom</li>
+                    <br><br>
+                    <li class="pleft">padding-left</li>
+                    <br><br>
+                    <li class="pright">padding-right</li>
+                    <br><br>
+                    <!--Padding com um valor único de top, right, bottom, left -->
+                    <li class="medição">padding com medição específica de toda direção(top, right, bottom, left).</li>
+                    <br><br>
+                    <!-- Padding com dois valores de (top-bottom), (right-left) -->
+                    <li class="duas">padding de todas as direções com medição específica de (top-bottom) e (right-left).
+                    </li>
+
+                </div>
+            </ul>
+        </section>
+        <section>
+            <h2 id="margin">Margin é um espaço externo não mostra como bordas mas com espaço enter o elemento e o
+                próximo elemento, e colocca espaço das bordas.</h2>
+            <ul class="lista3">
+
+                <li class="margin1">Margin de todas as direçães.</li>
+                <br>
+                <li class="margin2">Margin de direção top.</li>
+                <br>
+
+                <li class="margin3">Margin de direção bottom.</li>
+                <br>
+                <li class="margin4">Margin de direção right.</li>
+                <br>
+                <li class="margin5">Margin de direção left.</li>
+                <br>
+                <!-- Margin com um valor único de top, right, bottom, left -->
+                <li class="margin6">Margin com medição específica de toda direção.</li>
+                <br>
+                <!-- Margin com dois valores de (top-bottom), (right-left) -->
+                <li class="margin7">Margin de todas as direções com medição específica de (top-bottom) e (right-left).
+                </li>
+                <br>
+                <li class="margin8">Todo elemento está na esquerda de navegador(espaço externo). no css3 tem formas
+                    várias para fazer o elemento ficou no centro (não o conteúdo), pois poderia usar margin-left =
+                    margin-right mas se usa width com valor específico não mostra o elemento no centro. pois coloca
+                    "margin-left: auto; & margin-right:auto;" <mark>ou</mark>"margin: 0 auto" (0=top-bottom,
+                    auto=left-right).</li>
+                <br><br>
+                <li id="fim">Nota importante: Margin auto só funciona no left & right de forma horizontal, <strong>não
+                        funciona</strong> de forma vertical (top & bottom).</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+
+</html>

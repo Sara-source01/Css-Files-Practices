@@ -1,0 +1,217 @@
+span {
+    font-size: larger;
+    color: palevioletred;
+}
+
+/* bordas */
+
+.bor {
+    border: solid 1px red;
+}
+
+.top {
+    border-top: solid 2px blue;
+}
+
+.left {
+    border-left: solid 4px olive;
+}
+
+.bottom {
+    border-bottom: solid 2px yellow;
+}
+
+.right {
+    border-right: solid 4px orangered;
+}
+
+.todo {
+    border-top: solid 2px blue;
+    border-left: solid 2px olive;
+    border-bottom: solid 2px yellow;
+    border-right: solid 2px orangered;
+}
+
+/* tipos de bordas */
+
+.tipo1 {
+    border: solid 2px palevioletred;
+}
+
+.tipo2 {
+    border: dotted 2px blue;
+}
+
+.tipo3 {
+    border: dashed 2px blue;
+}
+
+.tipo4 {
+    border: double 2px blue;
+}
+
+/* largura e altura de bordas */
+
+.controle {
+    border: solid 2px magenta;
+    width: 200px;
+    height: 150px;
+}
+
+/* padding */
+
+/*padding de todas as direções */
+.direction {
+    border: solid 2px indianred;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+}
+
+.lista>.ptop {
+    border: solid 2px yellowgreen;
+    width: 200px;
+    height: 25px;
+    padding-top: 40px;
+}
+
+.lista>.pbottom {
+    border: solid 2px aqua;
+    width: 200px;
+    height: 25px;
+    padding-bottom: 40px;
+}
+
+.lista>.pleft {
+    border: solid 2px fuchsia;
+    width: 200px;
+    height: 25px;
+    padding-left: 40px;
+}
+
+.lista>.pright {
+    border: solid 2px gold;
+    width: 200px;
+    height: 25px;
+    padding-right: 40px;
+}
+
+/* padding com medição específica de toda direção */
+.lista>.medição {
+    border: solid 2px palevioletred;
+    width: 490px;
+    height: 25px;
+    /*Padding com um valores de
+     top, right, bottom, left */
+    padding: 20px 10px 30 px 20px;
+}
+
+.lista>.duas {
+    border: solid 2px darkorange;
+    width: 600px;
+    height: 25px;
+    /* Padding com dois valores de 
+    (top-bottom), (right-left) */
+    padding: 10px 30px;
+}
+
+/* Margin */
+.lista3>.margin1 {
+    border: solid 1px red;
+    width: 200px;
+    height: 25px;
+    /* (Padding com um valor único de top-bottom-right-left) */
+    padding: 20px;
+    /* Margin de todas as direçães. */
+    margin: 30px;
+}
+
+.lista3>.margin2 {
+    border: solid 1px yellow;
+    width: 200px;
+    height: 25px;
+    /* (Padding com um valor único de top-bottom-right-left) */
+    padding: 20px;
+    /* Margin de direção top. */
+    margin-top: 40px;
+}
+
+.lista3>.margin3 {
+    border: solid 1px fuchsia;
+    width: 200px;
+    height: 25px;
+    /* (Padding com um valor único de top-bottom-right-left) */
+    padding: 20px;
+    /* Margin de direção bottom. */
+    margin-bottom: 50px;
+}
+
+.lista3>.margin4 {
+    border: solid 1px navy;
+    width: 200px;
+    height: 25px;
+    /* (Padding com um valor único de top-bottom-right-left) */
+    padding: 20px;
+    /* Margin de direção right. */
+    margin-right: 100px;
+}
+
+.lista3>.margin5 {
+    border: solid 1px orangered;
+    width: 200px;
+    height: 25px;
+    /* ( Padding com um valor único de top-bottom-right-left) */
+    padding: 20px;
+    /* Margin de direção left. */
+    margin-left: 120px;
+}
+
+.lista3>.margin6 {
+    border: solid 1px violet;
+    width: 200px;
+    height: 25px;
+    /* ( Padding com um valor único de top-bottom-right-left). */
+    padding: 20px;
+    /* Margin com um valor único de
+     top, right, bottom, left. */
+    margin: 100px 150px 200px 150px;
+}
+
+.lista3>.margin7 {
+    border: solid 1px turquoise;
+    width: 200px;
+    height: 50px;
+    /* (Padding com um valor único de
+     top-bottom-right-left). */
+    padding: 20px;
+    /*  Margin com dois valores de
+     (top-bottom), (right-left). */
+    margin: 200px 250px;
+}
+
+.lista3>.margin8 {
+    background-color: palevioletred;
+    width: 80%;
+    height: 200px;
+
+    /* para colocar o elemento no
+     centro não o conteúdo */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  ou para colocar o elemento no
+     centro não o conteúdo
+     .lista3>.margin9 {
+    background-color: palevioletred;
+    width: 30%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+.lista3>li>strong {
+    background-color: red;
+}
+
+#fim {
+    margin-bottom: 60px;
+}

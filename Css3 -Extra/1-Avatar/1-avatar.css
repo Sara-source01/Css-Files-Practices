@@ -1,0 +1,63 @@
+/* para criar um avatar, deve definir
+{tamanho, cor, formato, borda, imagem,Icone/texto, badge (detales)}*/
+body {
+    background-color: #1c1c1c;
+}
+
+.avatar {
+    position: relative;
+    height: 96px;
+    width: 96px;
+    margin: 25px 0;
+}
+
+.avatar_conteudo {
+    font-family: 'Helvetica Neue', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-size: 58px;
+    color: #ffffff;
+    background-color: #02887a;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+
+/* para ajustar as medições de
+foto de forma cabe de círculo
+onde deve colocar a foto de avatar */
+.avatar_imagem {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.avatar_badge {
+    /* position para controlar 
+    onde vai ficar o lugar de conteúdo
+    de spsn class="avatar_badge" */
+    position: absolute;
+    /*tem quatro valores(top, bottom, left, right) */
+    /* se coloca -10 vai mover embaixo de foto */
+    bottom: -9px;
+    /* tem relação com geight e width de .avatar */
+    /* se tem um problema, 
+    poderia usar 50% ao invés de 98px */
+    left: calc(50% - 9px);
+    color: #000000;
+    background-color: #80B800;
+    height: 18px;
+    width: 18x;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

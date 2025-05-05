@@ -1,0 +1,21 @@
+div p strong {
+    color: palevioletred;
+}
+
+/* > indica para o filho direito */
+span>p {
+    background-color: yellow;
+}
+
+/* o espaço indica que li de descendente de ul sem definir quem ele é*/
+ul li {
+    background-color: tomato;
+}
+
+div>ol>li {
+    color: navy;
+}
+
+.container>.list>#item3 {
+    background-color: navajowhite;
+}

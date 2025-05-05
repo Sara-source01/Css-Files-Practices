@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    /* deletar o espaço inteira */
+    padding: 0;
+    /* deletar o espaço externo */
+    margin: 0;
+
+}
+
+a {
+    color: white;
+    /* apagar as linhas embaixo dos links */
+    text-decoration: none;
+
+}
+
+body {
+    /* to right indica que (#01022d no esquerdo,
+     #000 no direita) */
+    background-image: linear-gradient(to right, #01022d, #000);
+    /* 100vh  (viewport) de tela de visualizar */
+    height: 100vh;
+    /* colocar o conteúdo no centro */
+    display: flex;
+    /* colocar o conteúdo no centro de exio "X" */
+    justify-content: center;
+    /* colocar o conteúdo no centro de exio "Y" */
+    align-items: center;
+}
+
+.container {
+    /* a foto não mostrará diretamente
+    por caso ela está embaixo de cores
+    de body ante de adicionar cores
+    de container*/
+    /* aumentar transparência de cor #000 por mostrar a foto */
+    /* 30% indica que a cor #01022de5
+   levará um espaço maior */
+    background-image: linear-gradient(to right, #01022de5 30%, #00000088),
+
+        url(imagens/avatar2.webp);
+    /* para ficar as personagens mostrar
+    até quando aumenta ou diminue a tela de navegador */
+    background-position: center;
+
+
+    /* ajustei a largura de forma caber com a tela de visalizar */
+    width: 78%;
+    height: 600px;
+}
+
+/* para iluminar a parte onde
+estão os personagens da foto
+quando coloca o ponteiro do mouse nele */
+/* fazer a cor #00000088 desaparecer
+ no direito da foto para iluminar
+  a parte de personagens */
+.container:hover {
+    background-image: linear-gradient(to right, #01022de5 30%, transparent),
+
+        url(imagens/avatar2.webp);
+}
+
+/* header contém <a class="logo">avatar</a>
+e ul */
+/* colocar "avatar" no esquerdo e
+o navbar(ul) no direito usando flex */
+header{
+    display: flex;
+    /* para colocar espaço entre
+    avatar no esquerdo e navbar no direito */
+    justify-content: space-between;
+    /* para todos os elementos mostrar no centro */
+    align-items: center;
+    /* separar o conteúdo das bordas de todas as direções */
+    padding: 10px;
+
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul {
+    /* remover os pontos aos lados de todos de li(links) */
+    list-style: none;
+    /* colocar (home, clans, videos, photos, about)
+ na mesma linha um ao lado do outro */
+    display: flex;
+    /* colocar espaço entre eles 
+ space-between ou space evenly
+ (não funciona diretamente
+ porque precisa definir a largura de ul */
+    justify-content: space-evenly;
+    width: 60%;
+
+}
+
+/* controlar os links dentro ul */
+
+ul a {
+    /* colocar linha embaixo todo link
+(home,clans,..etc) 
+mas essa linha não quero mostrar diretamente
+mas quando clica no qualquer link*/
+
+    border-bottom: 2px solid transparent;
+
+}
+
+/* quando clica no qualquer link, a linha 
+bottom vai mostrar */
+ul a:hover {
+    border-bottom-color: white;
+
+}
+
+/* ajustar o conteúdo */
+.content {
+    color: white;
+    width: 50%;
+    /* colocar espaço externo entre
+o elemento e o elemento emcima */
+    margin-top: 50px;
+    /* colocar espaço interior separar
+o conteúdo das bordas */
+    padding: 30px;
+
+}
+
+
+.content h2 {
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.content p {
+    /* espaçamento entre letras */
+    letter-spacing: 3px;
+    /* fazer a largura do conteúdo de p 
+    não exeda a largura de pai dele (h2=AVATAR)  */
+    width: 360px;
+    padding: 20px 0;
+
+
+}
+
+.content button {
+    font-size: 30px;
+    /* top e bottom & right e left */
+    padding: 6px 10px;
+    /* bordas de button */
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+
+}
+
+/* quando clica o ponteiro de mouse
+no buttom, vai mudar a cor de buttom desaparecer */
+.content button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    /* a forma de ponteiro de mouse
+mudará para a mão */
+
+
+
+}
