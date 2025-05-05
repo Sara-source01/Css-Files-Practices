@@ -35,7 +35,7 @@ Sinta-se à vontade para explorar, modificar e melhorar os exemplos!
 
 🧑‍💻 Autor
 Desenvolvido por Sara George
-📫 Contato: [coloque seu email aqui]
+📫 Contato: sara.ebrahim.george@gmail.com
 🌐 Portfólio: [coloque seu site aqui]
 
 
