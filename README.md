@@ -1,4 +1,4 @@
-# Css3-Files-Practices
+# Css3-Practice-Files
 # Práticas de CSS3 🎨 (em desenvolvimento)
 
 Este repositório contém uma coletânea de práticas organizadas por tópicos da linguagem CSS3. Cada pasta dentro do diretório principal representa um conceito ou recurso específico do CSS, acompanhado por exemplos práticos e comentados.
